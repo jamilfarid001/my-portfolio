@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Projects by Jamil Farid — Computing student portfolio at JKUAT">
+  <title>Projects | Jamil Farid Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <a href="#main" class="skip-link">Skip to main content</a>
+
+  <header>
+    <div class="container">
+      <a href="index.html" class="logo">Jamil Farid</a>
+      <nav aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html" class="active">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="projects-section">
+      <div class="container">
+        <h2>My Projects</h2>
+        <div class="cards">
+
+          <article class="card">
+            <span class="card-tag">Networking</span>
+            <h3>Campus Network Design</h3>
+            <p>Designed a VLAN-segmented network in Cisco Packet Tracer. Includes routing configuration and secure credentials.</p>
+            <a href="#" class="card-link">View Project →</a>
+          </article>
+
+          <article class="card">
+            <span class="card-tag">Web Dev</span>
+            <h3>Personal Portfolio Website</h3>
+            <p>This responsive portfolio built as part of ICS 2215. Deployed live with HTTPS enabled.</p>
+            <a href="#" class="card-link">View Project →</a>
+          </article>
+
+          <article class="card">
+            <span class="card-tag">Database</span>
+            <h3>Student Management System</h3>
+            <p>Designed a MySQL database for managing student records, courses, and enrollment data.</p>
+            <a href="#" class="card-link">View Project →</a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; <span id="year"></span> Jamil Farid — ICS 2215, Dept. of Computing, JKUAT</p>
+    </div>
+  </footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
